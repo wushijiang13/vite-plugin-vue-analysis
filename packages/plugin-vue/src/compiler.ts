@@ -8,7 +8,7 @@ declare module 'vue/compiler-sfc' {
 
 //导入 可以commonjs 的导入功能 支持导入文件
 import { createRequire } from 'node:module'
-//导入编译器所有功能
+//声明 'vue/compiler-sfc' 模块类型下编译器对象应该包含的参数
 import type * as _compiler from 'vue/compiler-sfc'
 
 //解析编译器，type 来自vue的模版解析模块
