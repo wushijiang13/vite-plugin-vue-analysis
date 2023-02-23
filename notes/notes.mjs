@@ -18,4 +18,8 @@ function test(isCheck){
 }
 
 console.log(test(true) || test(true));
-
+let name;
+let nickName="tian";
+console.log(`type=script.*&lang\.${
+ name || nickName
+}$`);
